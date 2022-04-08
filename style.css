@@ -9,7 +9,7 @@ body {
     padding-bottom: 10px;
     padding-left: 200px;
     padding-right: 200px;
-    margin-bottom: -48px;
+    margin-bottom: -16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,10 +23,24 @@ body {
 .awesome-site {
     background-color: #1F2937;
     padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .greeting {
     color: #f9FAF8;
     font-weight: bolder;
     font-size: 48px;
+}
+
+.short-intro {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#pfp {
+    height: auto;
+    width: 60%;
 }
