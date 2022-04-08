@@ -27,6 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-shrink: 1;
 }
 
 .greeting {
@@ -41,6 +42,9 @@ body {
 }
 
 #pfp {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    width: 80%;
     height: auto;
-    width: 60%;
 }
