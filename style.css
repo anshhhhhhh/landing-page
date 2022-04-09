@@ -27,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-shrink: 1;
+    flex-shrink: 0;
 }
 
 .greeting {
@@ -47,4 +47,60 @@ body {
     padding-left: 120px;
     width: 80%;
     height: auto;
+}
+
+.infographic-section {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infographic-content {
+    padding: 10px;
+    display: flex;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.infographic {
+    padding: 30px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graphic {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+}
+
+.info {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
